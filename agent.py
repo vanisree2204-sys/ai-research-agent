@@ -9,9 +9,7 @@ init(autoreset=True)
 # =========================
 # OPENROUTER API CONFIG
 # =========================
-
-API_KEY = "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"
-
+API_KEY = "YOUR_OPENROUTER_API_KEY"
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=API_KEY,
